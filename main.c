@@ -10,22 +10,17 @@
 #include "functions.h"
 
 void main(){
-	int num1, num2;
 
-	num1 = validate(0);
-	num2 = validate(0);
+    int num1, num2, a=10, b=5000;
 
-	if(num1>num2){
-		printf("num1 es mes gran");
-	}
-	else{
-		if(num2>num1){
-			printf("num2 es més gran");
-		}
-		else{
-			printf("son iguals");
-		}
-	}
+    num1 = natural(a, b);
+
+	printf("El primer numero es correcto \n");
+
+    num2 = natural(a, b);
+
+    printf("El segundo numero es correcto \n");
+
 }
 
 
