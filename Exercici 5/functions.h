@@ -7,8 +7,7 @@
 
 #ifndef FUNCTIONS_H_
 #define FUNCTIONS_H_
-
 #endif /* FUNCTIONS_H_ */
 
 
-int intercanvi(int, int);
+int intercanvi(int *, int *);
